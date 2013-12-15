@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root >
+	<specVersion>
+	</specVersion>
+	<device>
+		<deviceType>urn:schemas-micasaverde-com:device:dvdbluray:1</deviceType>
+		<friendlyName>AppleTV2</friendlyName>
+		<manufacturer>Apple</manufacturer>
+		<modelDescription>AppleTV2</modelDescription>
+		<modelName>ATV2</modelName>
+		<modelNumber>2</modelNumber>
+		<protocol>raw</protocol>
+		<UDN>de9dce50-5552-11e3-949a-0800200c9a66</UDN>
+		<serviceList>
+			<service>
+				<serviceType>urn:micasaverde-com:service:MenuNavigation:1</serviceType>
+				<serviceId>urn:micasaverde-com:serviceId:MenuNavigation1</serviceId>
+				<SCPDURL>S_MenuNavigation1.xml</SCPDURL>
+			</service>
+			<service>
+				<serviceType>urn:micasaverde-com:service:MediaNavigation:1</serviceType>
+				<serviceId>urn:micasaverde-com:serviceId:MediaNavigation1</serviceId>
+				<SCPDURL>S_MediaNavigation1.xml</SCPDURL>
+			</service>
+		</serviceList>
+	</device>
+</root>
